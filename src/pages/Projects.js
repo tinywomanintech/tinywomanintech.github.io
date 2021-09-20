@@ -1,9 +1,12 @@
 import React from 'react';
+import Footer from '../parts/Footer';
+import Header from '../parts/Header';
 
 const Projects = () => {
   return (
     <div>
-      <h1>testing</h1>
+      <Header />
+      <Footer />
     </div>
   );
 };

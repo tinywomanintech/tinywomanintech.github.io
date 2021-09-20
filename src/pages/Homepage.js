@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
 const Homepage = () => {
   return (
     <div>
-      <h1>ini adalah homepage</h1>
+      <Hero />
     </div>
   );
 };
