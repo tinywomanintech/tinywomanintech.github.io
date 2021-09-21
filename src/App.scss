@@ -1,0 +1,104 @@
+@import './assets/style/color';
+@import './assets/style/button';
+@import './assets/style/typography';
+
+#root {
+  color: $black;
+}
+
+// Hero section
+.hero {
+  height: 100%;
+  .hero-content {
+    margin-top: 3rem;
+    margin-bottom: 25rem;
+    h1 {
+      font-size: 10rem;
+    }
+    img {
+      position: absolute;
+      left: 38rem;
+      top: 10rem;
+      z-index: -1;
+      width: 30rem;
+      transform: rotate(10deg);
+    }
+  }
+  span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    .hero-content {
+      margin-top: 2rem;
+      margin-bottom: 0;
+      padding: 2rem;
+      h1 {
+        font-size: 5rem;
+      }
+      h1:hover {
+        color: $maroon;
+      }
+      img {
+        display: none;
+      }
+    }
+    span {
+      display: block;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+// End: Hero section
+
+// Structure section
+.structure {
+  .structure-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+  .content {
+    width: 30rem;
+  }
+  .content-2 {
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    #my-div {
+      background-color: $gray;
+      width: 200px;
+      height: 60px;
+      margin: 5px;
+      padding: 1rem;
+    }
+    #my-div:hover {
+      background-color: $maroon;
+    }
+    a.fill-div {
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      text-align: center;
+      color: $white;
+    }
+    a.fill-div:hover {
+      color: $black;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .structure {
+    .structure-content {
+      padding: 0rem 2rem 2rem 2rem;
+      margin-bottom: 0;
+    }
+  }
+}
+// End: Structure section
