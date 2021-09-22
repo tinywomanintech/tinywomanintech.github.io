@@ -31,8 +31,10 @@
 
 @media only screen and (max-width: 600px) {
   .hero {
+    background-color: $black;
+    color: $white;
     .hero-content {
-      margin-top: 2rem;
+      margin-top: 0;
       margin-bottom: 0;
       padding: 2rem;
       h1 {
@@ -95,6 +97,8 @@
 
 @media only screen and (max-width: 600px) {
   .structure {
+    background-color: $black;
+    color: $white;
     .structure-content {
       padding: 0rem 2rem 2rem 2rem;
       margin-bottom: 0;
