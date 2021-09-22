@@ -24,17 +24,17 @@ export default function Structure() {
               </Link>
             </div>
             <div id="my-div">
-              <Link to="/about" className="fill-div">
+              <Link to="/projects" className="fill-div">
                 Projects
               </Link>
             </div>
             <div id="my-div">
-              <Link to="/about" className="fill-div">
+              <Link to="/blog" className="fill-div">
                 Blog
               </Link>
             </div>
             <div id="my-div">
-              <Link to="/about" className="fill-div">
+              <Link to="/contacts" className="fill-div">
                 Contacts
               </Link>
             </div>

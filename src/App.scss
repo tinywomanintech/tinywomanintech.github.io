@@ -72,7 +72,7 @@
     display: flex;
     flex-wrap: wrap;
     #my-div {
-      background-color: $gray;
+      background-color: $black;
       width: 200px;
       height: 60px;
       margin: 5px;
@@ -103,6 +103,289 @@
       padding: 0rem 2rem 2rem 2rem;
       margin-bottom: 0;
     }
+
+    .content-2 {
+      #my-div {
+        background-color: $gray;
+      }
+    }
   }
 }
 // End: Structure section
+
+// Navbar
+
+.navbar {
+  background-color: $black;
+
+  .navbar-nav {
+    a.nav-item {
+      color: $white;
+      margin-left: 3rem;
+    }
+    a.nav-item:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: $white;
+
+    .toggle {
+      background-color: $white;
+      margin-left: auto;
+    }
+    .navbar-nav {
+      a.nav-item {
+        color: $black;
+        margin-left: auto;
+      }
+      a.nav-item:hover {
+        color: $maroon;
+      }
+    }
+  }
+}
+
+// End : Navbar
+
+// Footer
+footer {
+  padding: 2rem;
+  background-color: $black;
+  .footer-wrapper {
+    .footer-content {
+      display: flex;
+      justify-content: end;
+
+      a.nav-item {
+        color: $white;
+        margin-left: 3rem;
+      }
+      a.nav-item:hover {
+        color: $maroon;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    background-color: $white;
+    .footer-wrapper {
+      .footer-content {
+        display: flex;
+        flex-direction: column;
+        // margin-left: 10rem;
+
+        a.nav-item {
+          color: $black;
+          margin-left: 0;
+          line-height: 2.5rem;
+        }
+        a.nav-item:hover {
+          color: $maroon;
+        }
+      }
+    }
+  }
+}
+// End: footer
+
+// About
+.about {
+  background-color: $black;
+  color: $white;
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    h1 {
+      font-size: 10rem;
+      margin-left: auto;
+    }
+    img {
+      width: 25rem;
+      margin-left: auto;
+    }
+  }
+  .about-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .content-2 {
+      width: 25rem;
+      margin-left: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding-bottom: 0;
+    background-color: $white;
+    color: $black;
+    .about-content {
+      padding-bottom: 0;
+
+      h1 {
+        font-size: 6.5rem;
+        margin-left: 0;
+        padding: 0 1rem 0 1rem;
+      }
+      img {
+        width: 20rem;
+        margin-left: 0;
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        padding: 1rem;
+        margin-bottom: 0;
+      }
+    }
+    .about-2 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 1rem;
+      .content-2 {
+        width: 25rem;
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+// End: About
+
+// Project
+.project {
+  background-color: $black;
+  color: $white;
+  .project-content {
+    h1 {
+      font-size: 10rem;
+    }
+  }
+  .project-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .content-2 {
+      width: 25rem;
+      margin-left: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    padding-bottom: 0;
+    background-color: transparent;
+    color: $black;
+    .project-content {
+      h1 {
+        font-size: 6.5rem;
+      }
+    }
+    .project-2 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      .content-2 {
+        width: 25rem;
+        margin-left: auto;
+      }
+    }
+  }
+}
+// End: Project
+
+// Blog
+.blog {
+  background-color: $black;
+  color: $white;
+  .blog-content {
+    h1 {
+      font-size: 10rem;
+    }
+  }
+  .blog-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .content-2 {
+      width: 25rem;
+      margin-left: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blog {
+    padding-bottom: 0;
+    background-color: transparent;
+    color: $black;
+    .blog-content {
+      h1 {
+        font-size: 6.5rem;
+      }
+    }
+    .blog-2 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      .content-2 {
+        width: 25rem;
+        margin-left: auto;
+      }
+    }
+  }
+}
+// End: Blog
+
+// Contacts
+.contact {
+  background-color: $black;
+  color: $white;
+  .contact-content {
+    h1 {
+      font-size: 10rem;
+    }
+  }
+  .contact-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .content-2 {
+      width: 25rem;
+      margin-left: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding-bottom: 0;
+    background-color: transparent;
+    color: $black;
+    .contact-content {
+      h1 {
+        font-size: 6.5rem;
+      }
+    }
+    .contact-2 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      .content-2 {
+        width: 25rem;
+        margin-left: auto;
+      }
+    }
+  }
+}
+// End: Blog

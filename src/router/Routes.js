@@ -25,7 +25,7 @@ export default function Routes() {
         <Route path="/contacts" exact>
           <Contacts />
         </Route>
-        <Route path="/404" exact>
+        <Route exact>
           <PageNotFound />
         </Route>
       </Switch>
