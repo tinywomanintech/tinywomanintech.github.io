@@ -17,7 +17,10 @@ export default function Aboutme() {
             <p>A lil bit about me</p>
           </div>
           <div className="content-2">
-            <p>I'm a Frontend Developer, currently based in Indonesia. I'm passionate about improving my experiences in Programming, Design and constantly looking to learn new things everyday.</p>
+            <p>
+              I'm a Frontend Developer, currently based in Indonesia. I'm passionate about developing user-friendly websites. excellent communication skill and ability to perform well in a team. seeking to help develop their product as a
+              front end developer, as well as grow and develop my own skills as a coder.
+            </p>
           </div>
         </div>
         <div className="about-2">
