@@ -41,7 +41,7 @@ export default function Projectsme() {
           </div>
           <div className="content-2">
             <h2 className="fw-bold">
-              <a href="https://lms-skills.netlify.app" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
+              <a href="https://lms-skills-adinusa.netlify.app/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
                 Adinusa
               </a>
             </h2>
