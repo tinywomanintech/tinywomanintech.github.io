@@ -9,18 +9,23 @@ export default function Contactme() {
         </div>
         <div className="contact-2">
           <div className="content-2 ">
-            <p>soon</p>
+            <p>My Contacts</p>
           </div>
           <div className="content-2">
-            <p>soon</p>
+            <p>My social Networks</p>
           </div>
         </div>
         <div className="contact-2">
           <div className="content-2">
-            <p>soon</p>
+            <p>&nbsp;</p>
           </div>
           <div className="content-2">
-            <p>soon</p>
+            <p>Here you can write to me wherever it is convenient for you and I will try to answer you as soon as possible. I hope our cooperation will be fruitful.</p>
+            <p>
+              <a href="mailto:tiarannelia@gmail.com?subject = Feedback&body = Message" className="nav-item  text-decoration-none">
+                tiarannelia@gmail.com
+              </a>
+            </p>
           </div>
         </div>
       </div>

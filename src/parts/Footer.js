@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { AiOutlineLine } from 'react-icons/ai';
 
 export default function Footer() {
   return (
     <footer>
       <Container>
+        <span>
+          <AiOutlineLine />
+        </span>
         <div className="footer-wrapper">
           <div className="footer-content">
             <a href="https://www.linkedin.com/in/tiaraannelia/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none">

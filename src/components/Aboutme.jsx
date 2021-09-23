@@ -12,17 +12,17 @@ export default function Aboutme() {
           </h1>
           <img src="https://i.ibb.co/mGS1JXq/hero-bg.jpg" alt="hero-bg" border="0" />
         </div>
-        <div className="about-2">
+        <div className="about-2 ">
           <div className="content-2 ">
             <p>A lil bit about me</p>
           </div>
           <div className="content-2">
-            <p>I'm a Frontend Developer, currently based in Indonesia. I'm passionate about improving my experiences in Programming, Design and constantly looking to learn new things everyday. I build things for web and mobile app.</p>
+            <p>I'm a Frontend Developer, currently based in Indonesia. I'm passionate about improving my experiences in Programming, Design and constantly looking to learn new things everyday.</p>
           </div>
         </div>
         <div className="about-2">
           <div className="content-2">
-            <p>My skills</p>
+            <p>Skills</p>
           </div>
           <div className="content-2">
             <ul>
