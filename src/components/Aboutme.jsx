@@ -33,7 +33,7 @@ export default function Aboutme() {
               <li>Bootstrap</li>
               <li>SASS</li>
               <li>HTML/CSS</li>
-              <li>Responsive web design</li>
+              {/* <li>Responsive web design</li> */}
             </ul>
           </div>
         </div>

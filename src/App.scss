@@ -282,6 +282,11 @@ footer {
       img {
         width: 25rem;
       }
+      h2 {
+        a {
+          color: $white;
+        }
+      }
     }
   }
 }
@@ -302,8 +307,15 @@ footer {
       .content-2 {
         width: 25rem;
         margin-left: auto;
+
         img {
           width: 21rem;
+        }
+        h2 {
+          padding-top: 5px;
+          a {
+            color: $black;
+          }
         }
       }
     }

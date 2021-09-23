@@ -17,13 +17,13 @@ export default function Projectsme() {
         </div>
         <div className="project-2">
           <div className="content-2">
-            <a href="https://wash-me.herokuapp.com/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none text-white">
+            <a href="https://wash-me.herokuapp.com/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
               <img src="https://i.ibb.co/XkFHqxw/wash-me.png" alt="hero-bg" border="0" />
             </a>
           </div>
           <div className="content-2">
             <h2 className="fw-bold">
-              <a href="https://wash-me.herokuapp.com/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none text-white">
+              <a href="https://wash-me.herokuapp.com/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
                 Wash me
               </a>
             </h2>
@@ -35,13 +35,13 @@ export default function Projectsme() {
         </div>
         <div className="project-2">
           <div className="content-2">
-            <a href="https://lms-skills-adinusa.netlify.app/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none text-white">
+            <a href="https://lms-skills-adinusa.netlify.app/" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
               <img src="https://i.ibb.co/KwCQNNn/adinusa.png" alt="hero-bg" border="0" />
             </a>
           </div>
           <div className="content-2">
             <h2 className="fw-bold">
-              <a href="https://lms-skills.netlify.app" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none text-white">
+              <a href="https://lms-skills.netlify.app" target="_blank" rel="noreferrer" className="nav-item  text-decoration-none ">
                 Adinusa
               </a>
             </h2>
